@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.analytics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pie-chart-container {
+  margin-top: 20px;
+}
+
+.link-details {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.link-details:hover {
+  text-decoration: underline;
+}
+
+.app-header {
+  background-color: #001529; 
+  padding: 20px; 
+  color: #fff; 
+  text-align: center; 
+}
+
+.app-header h1 {
+  margin: 0; 
+}
+
+
+.app-container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .select-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .bar-chart-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .table-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
